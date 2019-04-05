@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  background-color: #fafafa !important;
+}
+.header a.navbar-brand {
+  padding: 0;
+}
+.header .headerCollapse {
+}
+.header .linksBody {
+
+}
+.header .linksBody .linksText {
+  font-family: 'Rubik-Medium';
+  font-size: 14px;
+  color: #1C113D !important;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.header .linksBody .linksText:hover {
+  color: #27ae60 !important;
+}

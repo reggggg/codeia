@@ -1,0 +1,159 @@
+.itemDetails {
+  width: 100%;
+  margin: 0;
+}
+.itemDetails .itemDetailsContent {
+  padding: 70px 0;
+}
+.itemDetails .itemDetailsContent .left {
+  background-color: #fff;
+  padding: 30px 20px;
+  border: 1px solid #ecf0f1;
+  height: 100%;
+}
+.itemDetails .itemDetailsContent .left span.pricing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemDetails .itemDetailsContent .left span.pricing h6 {
+  font-family: 'Rubik-Medium';
+  margin: 0;
+  font-size: 14px;
+  color: #9B9B9B;
+}
+.itemDetails .itemDetailsContent .left span.pricing h5 {
+  font-family: 'Rubik-Medium';
+  margin: 0;
+  font-size: 27px;
+  margin-bottom: 7px;
+  color: #1C113D;
+}
+.itemDetails .itemDetailsContent .left p {
+  font-family: 'Rubik-Light';
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+  color: #9B9B9B;
+}
+.itemDetails .itemDetailsContent .left .buyNowDiv {
+  text-align: center;
+}
+.itemDetails .itemDetailsContent .left .buyNowDiv button {
+  font-family: 'Rubik-Medium';
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background: #57D284;
+}
+.itemDetails .itemDetailsContent .left span.cardPurchase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  flex-flow: row wrap;
+}
+.itemDetails .itemDetailsContent .left span.cardPurchase img {
+  margin: 5px 8px;
+  cursor: pointer;
+  transition: all 0.1s;
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+.itemDetails .itemDetailsContent .left span.cardPurchase img:hover {
+  border: 1px solid gray;
+}
+.itemDetails .itemDetailsContent .right {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media(max-width: 767px){
+  .itemDetails .itemDetailsContent .right {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 15px;
+  }
+}
+.itemDetails .itemDetailsContent .right .itemDetails {
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ecf0f1;
+}
+.itemDetails .itemDetailsContent .right .itemDetails label {
+  font-family: 'Rubik-Regular';
+  font-size: 30px;
+  color: #1C113D;
+  border-bottom: 2px solid #57D284;
+}
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem {
+  padding: 0 30px;
+}
+@media(max-width: 450px){
+  .itemDetails .itemDetailsContent .right .itemDetails .eachItem {
+    padding: 0 8px;
+  }
+}
+
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem img{
+  width: 100%;
+  margin: 12px auto;
+}
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem .buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem .buttonContainer button {
+  cursor: pointer;
+  font-family: 'Rubik-Bold';
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 6px;
+  width: 154px;
+  height: 43px;
+}
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem .buttonContainer button.buttonPreview {
+  background-color: Transparent;
+  border: 3px solid #57D284;
+  color: #57D284;
+}
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem .buttonContainer button.buttonBuyNow {
+  border: 3px solid #57D284;
+  background-color: #57D284;
+}
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem p {
+  font-family: 'Rubik-Light';
+  font-size: 13px;
+  color: #1C113D;
+  text-align: justify;
+  margin: 40px 0;
+}
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem h6 {
+  font-family: 'Rubik-Medium';
+  font-size: 12px;
+  color: #57D284;
+  margin-bottom: 20px;
+}
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem ul {
+  list-style-type: none;
+}
+.itemDetails .itemDetailsContent .right .itemDetails .eachItem ul li {
+  font-family: 'Rubik-Light';
+  font-size: 13px;
+  color: #000;
+  margin: 8px 0;
+}
+@media(max-width: 452px){
+  .itemDetails .itemDetailsContent .right .itemDetails .eachItem .buttonContainer {
+    flex-flow: row wrap;
+  }
+  .itemDetails .itemDetailsContent .right .itemDetails .eachItem .buttonContainer button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+.banner {
+  width: 100%;
+  margin: 0;
+  margin-top: 120px;
+  background: url('../../images/market/bg-BannerCodeia Market.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.banner .bannerContent {
+  padding: 60px 0;
+}
+
+@media(max-width: 575px){
+  .banner .bannerContent {
+    text-align: center;
+  }
+}
+@media(max-width: 390px){
+  .banner .bannerContent {
+    padding-top: 100px;
+  }
+}
+@media(max-width: 271px){
+  .banner .bannerContent {
+    padding-top: 150px;
+  }
+}
+.banner .bannerContent h1{
+  font-family: 'Rubik-Bold';
+  font-size: 40px;
+  color: #fff;
+}
+.banner .bannerContent h2{
+  font-family: 'Rubik-Light';
+  font-size: 30px;
+  color: #fff;
+}

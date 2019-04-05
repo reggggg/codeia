@@ -1,0 +1,88 @@
+.marketHeader {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  background-color: #1F231F !important;
+}
+.marketHeader .linksBody {
+  display: flex;
+  align-items: center;
+}
+@media(max-width: 767px){
+  .marketHeader .container {
+    max-width: 100%;
+  }
+}
+.marketHeader .linksBody span {
+  font-family: 'Rubik-Regular';
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px 3px;
+  display: flex;
+  align-items: center;
+}
+.marketHeader .navbar-toggler {
+  background: url('../images/market/menu.svg');
+  background-color: #ecf0f1 !important;
+  background-position: center center;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  outline: none !important;
+  transition: 0.5s;
+
+}
+.marketHeader .mobileViewActive {
+  transition: 0.5s;
+  background-color: #7f8c8d !important;
+}
+
+.marketHeader .linksBody label.slash {
+  color: #fff;
+  cursor: default;
+  font-size: 14px;
+  margin: 0 5px;
+  margin-bottom: 3px;
+}
+@media(max-width: 767px){
+  .marketHeader .linksBody label.slash {
+    display: none;
+  }
+  .marketHeader .linksBody .cartLogo {
+    margin: 10px 0;
+  }
+  .marketHeader .linksBody {
+    align-items: flex-start;
+  }
+}
+.marketHeader .linksBody label.slash:hover {
+  color: #fff;
+}
+
+.marketHeader .linksBody span:hover {
+  color: #2ecc71;
+}
+.marketHeader .linksBody .cartLogo {
+  margin-right: 18px;
+  padding: 4px 9px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.marketHeader .linksBody .cartLogo img {
+  width: 17px;
+  height: 17px;
+}
+.marketHeader .linksBody .cartLogo:hover {
+  background-color: #2ecc71;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+
+.loginModalContent {
+  border-radius: 0 !important;
+
+}
+.loginModalContent  .modal-content {
+  border-radius: 0 !important;
+}
